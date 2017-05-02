@@ -25,22 +25,34 @@ public class Challenge extends Head {
 		driveDirect(0,180);
 		sleep(1400);
 		driveDirect(1600,1600);
-		
-	}
-	int count;
-	public void loop() {
-		
-		if(isBumpedRight()){
-			count++;
-				if(count==8){
-					sleep(1000);
-				}
-			driveDirect(-150,-150);
-			sleep(200);
-			driveDirect(300,0);
-			sleep(200);
-			driveDirect(800,800);
+		sleep(2900);
+		driveDirect(180,0);
+		sleep(1400);
+		driveDirect(800,800);
+		sleep(1300);
+		driveDirect(180,0);
+		sleep(1400);
+		driveDirect(1600,1600);
+		sleep(1000);
+		driveDirect(0,180);
+		sleep(1400);
+		driveDirect(800,800);
+		sleep(700);
+		driveDirect(0,180);
+		sleep(1400);
+		driveDirect(800,800);
+		sleep(600);
+		driveDirect(180,0);
+		sleep(1400);
+		driveDirect(800,800);
+		sleep(500);
+		driveDirect(0,180);
+		sleep(1400);
+		driveDirect(800,800);
+		sleep(1000);
 		}
+		
 		}
-	}
+	
+	
 
