@@ -49,7 +49,7 @@ public class Challenge extends Head {
 		driveDirect(0,180);
 		sleep(1400);
 		driveDirect(800,800);
-		sleep(1000);
+		sleep(100);
 		}
 		
 		}
